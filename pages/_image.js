@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export const _image = () => {
+const _image = () => {
    return (
       <Image
          src="./public/images/profile.jpg"
@@ -10,3 +10,5 @@ export const _image = () => {
       </Image>
    )
 }
+
+export default _image;
